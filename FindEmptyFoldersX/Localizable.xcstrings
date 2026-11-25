@@ -511,6 +511,26 @@
         }
       }
     },
+    "Check for Updates…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher les mises à jour…"
+          }
+        }
+      }
+    },
+    "Check for updates automatically": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher automatiquement les mises à jour"
+          }
+        }
+      }
+    },
     "Choose a Folder…": {
       "localizations": {
         "fr": {
@@ -547,6 +567,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier le chemin"
+          }
+        }
+      }
+    },
+    "Couldn’t check for updates": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de rechercher les mises à jour"
           }
         }
       }
@@ -601,6 +631,16 @@
         }
       }
     },
+    "Download": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Télécharger"
+          }
+        }
+      }
+    },
     "Drop a Folder Here": {
       "localizations": {
         "fr": {
@@ -644,12 +684,42 @@
     "Find Empty Folders X": {
       "shouldTranslate": false
     },
+    "Find Empty Folders X %@ is available": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Empty Folders X %@ est disponible"
+          }
+        }
+      }
+    },
+    "Find Empty Folders X %@ is the latest version.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Empty Folders X %@ est la dernière version."
+          }
+        }
+      }
+    },
     "Find Empty Folders X finds folders that contain nothing, or only invisible files such as .DS_Store": {
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
             "value": "Find Empty Folders X trouve les dossiers qui ne contiennent rien, ou seulement des fichiers invisibles comme .DS_Store"
+          }
+        }
+      }
+    },
+    "GitHub couldn’t be reached. Check your connection, or see the releases page.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de joindre GitHub. Vérifiez votre connexion, ou consultez la page des versions."
           }
         }
       }
@@ -690,6 +760,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fichiers invisibles"
+          }
+        }
+      }
+    },
+    "Later": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plus tard"
           }
         }
       }
@@ -874,6 +954,26 @@
         }
       }
     },
+    "Once a day, the app asks GitHub whether a new version is out. Nothing else is sent.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une fois par jour, l'app demande à GitHub si une nouvelle version est sortie. Rien d'autre n'est envoyé."
+          }
+        }
+      }
+    },
+    "Open Releases Page": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir la page des versions"
+          }
+        }
+      }
+    },
     "Quick Look": {
       "localizations": {
         "fr": {
@@ -1014,6 +1114,16 @@
         }
       }
     },
+    "Skip This Version": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ignorer cette version"
+          }
+        }
+      }
+    },
     "Some folders couldn’t be put back:": {
       "localizations": {
         "fr": {
@@ -1114,12 +1224,42 @@
         }
       }
     },
+    "Updates": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mises à jour"
+          }
+        }
+      }
+    },
     "Warning": {
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
             "value": "Attention"
+          }
+        }
+      }
+    },
+    "You have version %@. Download the new version from GitHub, then install it like the first time.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous avez la version %@. Téléchargez la nouvelle version sur GitHub, puis installez-la comme la première fois."
+          }
+        }
+      }
+    },
+    "You’re up to date": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous êtes à jour"
           }
         }
       }

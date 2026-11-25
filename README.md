@@ -24,6 +24,7 @@ It is a modernized rewrite, in Swift and SwiftUI, inspired by [Find Empty Folder
 - Safe by design: symbolic links, other volumes, system folders and packages are left alone, unreadable folders count as not empty, and each folder is checked again right before it is moved.
 - Moves to the Trash, never deletes: ⌘Z puts everything back.
 - Inspector, Quick Look, Show in Finder, sortable table, Dock badge and notification when a long scan ends.
+- Tells you when a new version is out on GitHub (once a day, can be turned off in Settings).
 - English and French, light and dark mode.
 
 ## Requirements

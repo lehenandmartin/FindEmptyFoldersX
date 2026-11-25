@@ -1,8 +1,9 @@
 import SwiftUI
 
-/// Settings window (⌘,): the scan rules.
+/// Settings window (⌘,): the scan rules and update checks.
 struct SettingsView: View {
     @Environment(AppModel.self) private var model
+    @AppStorage(UpdateChecker.automaticKey) private var checkForUpdates = true
 
     var body: some View {
         @Bindable var model = model
@@ -25,6 +26,15 @@ struct SettingsView: View {
             } footer: {
                 Text("Changing a rule starts a new scan")
                     .foregroundStyle(.secondary)
+            }
+
+            Section {
+                Toggle(isOn: $checkForUpdates) {
+                    Text("Check for updates automatically")
+                    Text("Once a day, the app asks GitHub whether a new version is out. Nothing else is sent.")
+                }
+            } header: {
+                Text("Updates")
             }
         }
         .formStyle(.grouped)

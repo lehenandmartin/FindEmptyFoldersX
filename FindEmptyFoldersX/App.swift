@@ -11,6 +11,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
+
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        // Let the window appear first, so a possible update alert doesn't come before the app.
+        Task { @MainActor in
+            try? await Task.sleep(for: .seconds(3))
+            await UpdateChecker.checkAutomatically()
+        }
+    }
 }
 
 /// Standard About panel, with credits for the original app and a link to the source code.
@@ -53,6 +61,7 @@ struct FindEmptyFoldersXApp: App {
         .commands {
             CommandGroup(replacing: .appInfo) {
                 Button("About Find Empty Folders X") { showAboutPanel() }
+                Button("Check for Updates…") { UpdateChecker.checkNow() }
             }
             SidebarCommands()
             InspectorCommands()
