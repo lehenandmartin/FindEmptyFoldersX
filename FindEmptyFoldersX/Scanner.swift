@@ -202,6 +202,21 @@ final class FolderScanner {
             }
         }
 
+        // FileManager hides AppleDouble files (._*). They only matter for a folder that looks empty,
+        // so only then read the directory again to find them (a second read of every folder is ~20% slower).
+        if node.isEmpty {
+            let listed = Set(children.map(\.lastPathComponent))
+            for entry in appleDoubleEntries(in: dir) where !listed.contains(entry.name) {
+                if !entry.isDirectory && options.ignoreInvisibleFiles {
+                    node.invisibleCount += 1
+                    if node.invisible.count < Self.sampleLimit { node.invisible.append(entry.name) }
+                } else {
+                    // A real file, or a folder we can't see into: not empty, to be safe.
+                    node.isEmpty = false
+                }
+            }
+        }
+
         // If this folder is itself empty and nested folders are grouped, the caller lists it
         // and its empty subfolders are not shown separately.
         // The root folder itself is never listed: always keep its children.
@@ -211,4 +226,45 @@ final class FolderScanner {
         progress.found += foundHere.count
         return node
     }
+}
+
+/// Every entry of a directory, as reported by the file system.
+///
+/// FileManager's `contentsOfDirectory` and its enumerator silently drop AppleDouble files (`._*`),
+/// so a folder holding only `._photo.jpg` would look empty even with "Ignore invisible files" off.
+/// `readdir` returns them like any other file.
+func directoryEntries(of dir: URL) throws -> [URL] {
+    guard let stream = opendir(dir.path) else {
+        throw CocoaError(.fileReadNoPermission, userInfo: [NSFilePathErrorKey: dir.path])
+    }
+    defer { closedir(stream) }
+    var entries: [URL] = []
+    while let entry = readdir(stream) {
+        let name = withUnsafeBytes(of: entry.pointee.d_name) { raw in
+            String(decoding: raw.prefix(Int(entry.pointee.d_namlen)), as: UTF8.self)
+        }
+        if name == "." || name == ".." { continue }
+        let isDir = entry.pointee.d_type == DT_DIR
+        entries.append(dir.appendingPathComponent(name, isDirectory: isDir))
+    }
+    return entries
+}
+
+/// AppleDouble entries (`._*`) of a directory, which FileManager doesn't list.
+/// Only those names are decoded, so the extra read stays cheap.
+func appleDoubleEntries(in dir: URL) -> [(name: String, isDirectory: Bool)] {
+    guard let stream = opendir(dir.path) else { return [] }
+    defer { closedir(stream) }
+    var entries: [(name: String, isDirectory: Bool)] = []
+    let dot = CChar(UInt8(ascii: "."))
+    let underscore = CChar(UInt8(ascii: "_"))
+    while let entry = readdir(stream) {
+        guard entry.pointee.d_namlen > 2,
+              entry.pointee.d_name.0 == dot, entry.pointee.d_name.1 == underscore else { continue }
+        let name = withUnsafeBytes(of: entry.pointee.d_name) { raw in
+            String(decoding: raw.prefix(Int(entry.pointee.d_namlen)), as: UTF8.self)
+        }
+        entries.append((name, entry.pointee.d_type == DT_DIR))
+    }
+    return entries
 }

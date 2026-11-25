@@ -103,21 +103,29 @@ private struct FolderDetails {
         let v = try? url.resourceValues(forKeys: [.creationDateKey, .contentModificationDateKey])
         created = v?.creationDate
         modified = v?.contentModificationDate
-        let keys: [URLResourceKey] = [.isDirectoryKey, .isSymbolicLinkKey]
-        guard let e = FileManager.default.enumerator(at: url, includingPropertiesForKeys: keys) else { return }
+        let keys: Set<URLResourceKey> = [.isDirectoryKey, .isSymbolicLinkKey]
         let base = url.standardizedFileURL.pathComponents.count
         var n = 0
-        for case let item as URL in e {
-            n += 1
-            if n > 200 { truncated = true; break }
-            let rel = item.standardizedFileURL.pathComponents.dropFirst(base).joined(separator: "/")
-                .replacingOccurrences(of: "\r", with: "")
-            let rv = try? item.resourceValues(forKeys: Set(keys))
-            if (rv?.isDirectory ?? false) && !(rv?.isSymbolicLink ?? false) {
-                subfolders.append(rel)
-            } else {
-                invisibleFiles.append(rel)
+        // Depth-first walk with directoryEntries(of:), which also sees ._* files.
+        var pending = [url]
+        while let dir = pending.popLast() {
+            let children = ((try? directoryEntries(of: dir)) ?? [])
+                .sorted { $0.lastPathComponent.localizedStandardCompare($1.lastPathComponent) == .orderedAscending }
+            var subdirs: [URL] = []
+            for item in children {
+                n += 1
+                if n > 200 { truncated = true; return }
+                let rel = item.standardizedFileURL.pathComponents.dropFirst(base).joined(separator: "/")
+                    .replacingOccurrences(of: "\r", with: "")
+                let rv = try? item.resourceValues(forKeys: keys)
+                if (rv?.isDirectory ?? false) && !(rv?.isSymbolicLink ?? false) {
+                    subfolders.append(rel)
+                    subdirs.append(item)
+                } else {
+                    invisibleFiles.append(rel)
+                }
             }
+            pending.append(contentsOf: subdirs.reversed())
         }
     }
 }
