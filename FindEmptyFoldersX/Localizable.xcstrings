@@ -1,0 +1,1159 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld empty folders": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld empty folder"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld empty folders"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossier vide"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossiers vides"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld empty folders found": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld empty folder found"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld empty folders found"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossier vide trouvé"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossiers vides trouvés"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld empty subfolders": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld empty subfolder"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld empty subfolders"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld sous-dossier vide"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld sous-dossiers vides"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld folders moved to the Trash": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folder moved to the Trash"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folders moved to the Trash"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossier placé dans la Corbeille"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossiers placés dans la Corbeille"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld folders no longer exist": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folder no longer exists"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folders no longer exist"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossier n'existe plus"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossiers n'existent plus"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld folders put back": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folder put back"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folders put back"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossier remis à sa place"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossiers remis à leur place"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld folders scanned": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folder scanned"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folders scanned"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossier parcouru"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossiers parcourus"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld folders scanned in %@ s": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@scanned@ in %2$@ s"
+          },
+          "substitutions": {
+            "scanned": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg folder scanned"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg folders scanned"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@scanned@ en %2$@ s"
+          },
+          "substitutions": {
+            "scanned": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg dossier parcouru"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg dossiers parcourus"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld folders selected": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folder selected"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld folders selected"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossier sélectionné"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dossiers sélectionnés"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld unreadable": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld unreadable"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld unreadable"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld illisible"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld illisibles"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "A folder that only contains .DS_Store, Icon or ._* counts as empty": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un dossier qui ne contient que .DS_Store, Icon ou ._* est considéré comme vide"
+          }
+        }
+      }
+    },
+    "A modernized rewrite inspired by Find Empty Folders by Thomas Tempelmann.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une réécriture modernisée, inspirée de Find Empty Folders de Thomas Tempelmann."
+          }
+        }
+      }
+    },
+    "About Find Empty Folders X": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos de Find Empty Folders X"
+          }
+        }
+      }
+    },
+    "Add Folder…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter un dossier…"
+          }
+        }
+      }
+    },
+    "Add a folder (⌘O)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter un dossier (⌘O)"
+          }
+        }
+      }
+    },
+    "All Folders": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tous les dossiers"
+          }
+        }
+      }
+    },
+    "Apps, Photos libraries… Their empty folders are often needed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Applications, bibliothèques Photos… Leurs dossiers vides sont souvent nécessaires"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        }
+      }
+    },
+    "Changing a rule starts a new scan": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Changer une règle relance la recherche"
+          }
+        }
+      }
+    },
+    "Choose a Folder…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir un dossier…"
+          }
+        }
+      }
+    },
+    "Choose one or more folders to search for empty folders.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un ou plusieurs dossiers dans lesquels chercher des dossiers vides."
+          }
+        }
+      }
+    },
+    "Contents": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contenu"
+          }
+        }
+      }
+    },
+    "Copy Path": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copier le chemin"
+          }
+        }
+      }
+    },
+    "Couldn’t move to the Trash:": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de mettre à la corbeille :"
+          }
+        }
+      }
+    },
+    "Created": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Créé"
+          }
+        }
+      }
+    },
+    "Dates": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dates"
+          }
+        }
+      }
+    },
+    "Don’t look inside invisible folders": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne pas explorer les dossiers invisibles"
+          }
+        }
+      }
+    },
+    "Don’t look inside packages": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne pas explorer les paquets"
+          }
+        }
+      }
+    },
+    "Drop a Folder Here": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glissez un dossier ici"
+          }
+        }
+      }
+    },
+    "Each folder is checked again right before it is moved. You can undo with ⌘Z.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaque dossier est revérifié juste avant d'être déplacé. Vous pourrez annuler avec ⌘Z."
+          }
+        }
+      }
+    },
+    "Empty": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vide"
+          }
+        }
+      }
+    },
+    "Empty Subfolders": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sous-dossiers vides"
+          }
+        }
+      }
+    },
+    "Find Empty Folders X": {
+      "shouldTranslate": false
+    },
+    "Find Empty Folders X finds folders that contain nothing, or only invisible files such as .DS_Store": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Empty Folders X trouve les dossiers qui ne contiennent rien, ou seulement des fichiers invisibles comme .DS_Store"
+          }
+        }
+      }
+    },
+    "Group Nested Folders": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Regrouper les dossiers imbriqués"
+          }
+        }
+      }
+    },
+    "Ignore invisible files": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ignorer les fichiers invisibles"
+          }
+        }
+      }
+    },
+    "Inspector": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inspecteur"
+          }
+        }
+      }
+    },
+    "Invisible Files": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fichiers invisibles"
+          }
+        }
+      }
+    },
+    "List limited to the first 200 items": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liste limitée aux 200 premiers éléments"
+          }
+        }
+      }
+    },
+    "Location": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emplacement"
+          }
+        }
+      }
+    },
+    "Modified": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifié"
+          }
+        }
+      }
+    },
+    "Move %lld folders to the Trash?": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Move %lld folder to the Trash?"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Move %lld folders to the Trash?"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Placer %lld dossier dans la Corbeille ?"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Placer %lld dossiers dans la Corbeille ?"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Move to Trash": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Placer dans la Corbeille"
+          }
+        }
+      }
+    },
+    "Move to Trash (⌘⌫)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Placer dans la Corbeille (⌘⌫)"
+          }
+        }
+      }
+    },
+    "Move to Trash…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Placer dans la Corbeille…"
+          }
+        }
+      }
+    },
+    "Move “%@” to the Trash?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Placer « %@ » dans la Corbeille ?"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom"
+          }
+        }
+      }
+    },
+    "No Empty Folders": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun dossier vide"
+          }
+        }
+      }
+    },
+    "No Selection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune sélection"
+          }
+        }
+      }
+    },
+    "No empty folders found": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun dossier vide trouvé"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun"
+          }
+        }
+      }
+    },
+    "Nothing to clean up here": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien à nettoyer ici"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Quick Look": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coup d'œil"
+          }
+        }
+      }
+    },
+    "Remove from List": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer de la liste"
+          }
+        }
+      }
+    },
+    "Remove the selected folder": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer le dossier sélectionné"
+          }
+        }
+      }
+    },
+    "Scan": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyser"
+          }
+        }
+      }
+    },
+    "Scan Again": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher à nouveau"
+          }
+        }
+      }
+    },
+    "Scan Complete": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche terminée"
+          }
+        }
+      }
+    },
+    "Scan again (⌘R)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher à nouveau (⌘R)"
+          }
+        }
+      }
+    },
+    "Scanned Folders": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dossiers analysés"
+          }
+        }
+      }
+    },
+    "Scanning…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche en cours…"
+          }
+        }
+      }
+    },
+    "Search": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher"
+          }
+        }
+      }
+    },
+    "Select a folder to see what it contains": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sélectionnez un dossier pour voir son contenu"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher dans le Finder"
+          }
+        }
+      }
+    },
+    "Show in Finder (⇧⌘R)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher dans le Finder (⇧⌘R)"
+          }
+        }
+      }
+    },
+    "Show or hide the inspector (⌥⌘I)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher ou masquer l'inspecteur (⌥⌘I)"
+          }
+        }
+      }
+    },
+    "Some folders couldn’t be put back:": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Certains dossiers n'ont pas pu être remis en place :"
+          }
+        }
+      }
+    },
+    "Source code on GitHub": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code source sur GitHub"
+          }
+        }
+      }
+    },
+    "Start a scan with ⌘R": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lancez la recherche avec ⌘R"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter"
+          }
+        }
+      }
+    },
+    "Stop the scan (⌘.)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter la recherche (⌘.)"
+          }
+        }
+      }
+    },
+    "The contents of .git, .cache and other invisible folders are skipped": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le contenu de .git, .cache et des autres dossiers invisibles est laissé de côté"
+          }
+        }
+      }
+    },
+    "The scanned folder is itself empty": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le dossier analysé est lui-même vide"
+          }
+        }
+      }
+    },
+    "These folders are no longer empty and were left in place:": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ces dossiers ne sont plus vides et ont été laissés en place :"
+          }
+        }
+      }
+    },
+    "This folder no longer exists": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce dossier n'existe plus"
+          }
+        }
+      }
+    },
+    "Undo Move to Trash": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler le placement dans la Corbeille"
+          }
+        }
+      }
+    },
+    "Warning": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attention"
+          }
+        }
+      }
+    },
+    "scan stopped, results incomplete": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "recherche interrompue, résultats incomplets"
+          }
+        }
+      }
+    },
+    "showing the parent folder": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "affichage du dossier parent"
+          }
+        }
+      }
+    },
+    "⌘Z to undo · their parents may now be empty, scan again with ⌘R": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⌘Z pour annuler · leurs parents sont peut-être devenus vides, relancez avec ⌘R"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,17 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSHumanReadableCopyright": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copyright © 2026 Martin Le Hénand. Licence MIT."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
