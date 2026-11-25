@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/badge/macOS-26%2B-000000?logo=apple&logoColor=white" alt="macOS 26 or later">
 </p>
 
+<p align="center"><img src="docs/screenshot.png" width="800" alt="Find Empty Folders X showing 17 empty folders found in two scanned folders, Projects and Archive; some only contain invisible files such as .DS_Store"></p>
+
 ---
 
 Folders left empty by uninstalled apps, old projects or synced drives pile up, and many of them aren't really empty: they hold a `.DS_Store` or another invisible file, so the Finder never shows them as empty. Find Empty Folders X finds them all and lets you clear them out in one go.
